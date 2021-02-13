@@ -9,10 +9,10 @@ const tagManagerArgs = {
   gtmId: 'GTM-MPLTJH3'
 }
 
-TagManager.initialize(tagManagerArgs)
+if (process.browser) {
+  TagManager.initialize(tagManagerArgs)
 
-
-
+}
 
 
 // Export your top level component as JSX (for static rendering)

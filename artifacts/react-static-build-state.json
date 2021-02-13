@@ -1,0 +1,54 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": 1,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "silent": false,
+  "entry": "index.js",
+  "paths": {
+    "ROOT": "C:\\code\\starboxapp",
+    "SRC": "C:\\code\\starboxapp\\src",
+    "DIST": "C:\\code\\starboxapp\\dist",
+    "ASSETS": "C:\\code\\starboxapp\\dist",
+    "PLUGINS": "C:\\code\\starboxapp\\plugins",
+    "TEMP": "C:\\code\\starboxapp\\tmp",
+    "ARTIFACTS": "C:\\code\\starboxapp\\artifacts",
+    "PUBLIC": "C:\\code\\starboxapp\\public",
+    "NODE_MODULES": "C:\\code\\starboxapp\\node_modules",
+    "EXCLUDE_MODULES": "C:\\code\\starboxapp\\node_modules",
+    "PACKAGE": "C:\\code\\starboxapp\\package.json",
+    "HTML_TEMPLATE": "C:\\code\\starboxapp\\dist\\index.html",
+    "STATIC_DATA": "C:\\code\\starboxapp\\dist\\staticData"
+  },
+  "plugins": [
+    "C:\\code\\starboxapp"
+  ],
+  "siteRoot": "/",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}
