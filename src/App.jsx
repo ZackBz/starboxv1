@@ -30,7 +30,7 @@ import './app.css'
           <div className="icon-wrapper">
             <img className="app-icon" src={Icon} alt=""/>
           </div>
-          <a className="center-mid" href="#">
+          <a className="center-mid" href="https://storage.starbox.app/Star_Box.mobileconfig">
           <span className="badge">Install</span>
           </a>
           <footer>
