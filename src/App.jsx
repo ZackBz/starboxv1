@@ -22,7 +22,7 @@ import './app.css'
           <link rel="icon" href="/favicon.png" />
           <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </Helmet>
-      <video id="vid" autostart="true" autoPlay={true} muted loop ref={playBack} src={Video} type="video/mp4" />
+      <video id="vid" autostart="true" playsInline autoPlay={true} muted loop ref={playBack} src={Video} type="video/mp4" />
         <div className="content">
           <h1>Starbox</h1>
           <p>Apple's least favorite AppStore.</p>
