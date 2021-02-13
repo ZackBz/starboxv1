@@ -1,18 +1,12 @@
-import React, { Component, useEffect, useRef } from 'react'
+import React, { Component } from 'react'
 import { Helmet } from 'react-helmet'
-import YoutubeBackground from 'react-youtube-background'
 
-import Video from '../public/starrynight.mp4'
 import Icon from '../public/app-icon.png'
 import './app.css'
 
 
 const App = () => {
-const playBack = useRef(null)
-// useEffect(() => {
-// // playBack.playbackRate = 0.25
-// playBack.current.playbackRate = 0.75
-// })
+
 return (
 
 <div className="App">
@@ -29,8 +23,8 @@ return (
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </Helmet>
 
-<YoutubeBackground videoId={"9VRZC9z3fNg"}>
-<div className="content">
+
+  <div className="content">
     <h1>Starbox</h1>
     <p>Apple's least favorite AppStore.</p>
     <a href="https://twitter.com/starbox_app?ref_src=twsrc%5Etfw" className="twitter-follow-button"
@@ -45,9 +39,6 @@ return (
       © {(new Date()).getFullYear()} starbox
     </footer>
   </div>
-</YoutubeBackground>
-
-  
 </div>
 )
 }
