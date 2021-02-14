@@ -69,7 +69,7 @@ const App = () => {
       <MobileBackground />
       <div className="content">
         <h1>Starbox</h1>
-        <p>Apple's least favorite AppStore.</p>
+        <p>Apple's actual least favorite AppStore.</p>
         <a
           href="https://twitter.com/starbox_app?ref_src=twsrc%5Etfw"
           className="twitter-follow-button"
