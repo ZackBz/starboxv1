@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "react": "^16.14.0",
+    "react-device-detect": "^1.15.0",
     "react-dom": "^16.14.0",
     "react-gtm-module": "^2.0.11",
     "react-helmet": "^6.1.0",
@@ -17,7 +18,8 @@
     "react-static": "^7.5.0",
     "react-static-plugin-reach-router": "^7.5.0",
     "react-static-plugin-sitemap": "^7.5.0",
-    "react-static-plugin-source-filesystem": "^7.5.0"  },
+    "react-static-plugin-source-filesystem": "^7.5.0"
+  },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.19.0",
