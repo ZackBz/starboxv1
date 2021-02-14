@@ -67,7 +67,7 @@ const App = () => {
       </Helmet>
       <DesktopBackground />
       <MobileBackground />
-      <div className="content">
+      <div className="page-content">
         <h1>Starbox</h1>
         <p>Apple's actual least favorite AppStore.</p>
         <a
