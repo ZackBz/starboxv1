@@ -1,71 +1,42 @@
 import React, { Component, useEffect, useRef } from "react";
 import { Helmet } from "react-helmet";
-import { BrowserView, MobileView, isMobile, isBrowser } from "react-device-detect";
+import {
+  BrowserView,
+  MobileView,
+  isMobile,
+  isBrowser,
+} from "react-device-detect";
 
 import Video from "../public/starrynight.mp4";
 import Icon from "../public/app-icon.png";
 import "./app.css";
 
-// function MobileBackground() {
-//   if (isMobile) {
-//     return <div className="image-bg"></div>
-//   } else {
-//     return null
-//   }
-// }
-
-// function DesktopBackground() {
-//   const playBack = useRef(null);
-//   useEffect(() => {
-//     if (playBack.current) {
-//       playBack.current.playbackRate = 0.75;
-//     }
-//   });
-//   if (isBrowser) {
-//     return (
-//       <video
-//         id="vid"
-//         autostart="true"
-//         autoPlay={true}
-//         muted
-//         loop
-//         ref={playBack}
-//         src={Video}
-//         type="video/mp4"
-//       />
-//     );
-//   } else {
-//     return null
-//   }
-// }
-
 function MobileBackground() {
-      return <div className="image-bg"></div>
-  }
-  
-  function DesktopBackground() {
-    const playBack = useRef(null);
-    useEffect(() => {
-      if (playBack.current) {
-        playBack.current.playbackRate = 0.75;
-      }
-    });
-      return (
-        <video
-          id="vid"
-          autostart="true"
-          autoPlay={true}
-          muted
-          loop
-          ref={playBack}
-          src={Video}
-          type="video/mp4"
-        />
-      ) 
-  }
+  return <div className="image-bg"></div>;
+}
+
+function DesktopBackground() {
+  const playBack = useRef(null);
+  useEffect(() => {
+    if (playBack.current) {
+      playBack.current.playbackRate = 0.75;
+    }
+  });
+  return (
+    <video
+      id="vid"
+      autostart="true"
+      autoPlay={true}
+      muted
+      loop
+      ref={playBack}
+      src={Video}
+      type="video/mp4"
+    />
+  );
+}
 
 const App = () => {
-
   return (
     <div className="App">
       <Helmet>
@@ -90,13 +61,13 @@ const App = () => {
           charset="utf-8"
         ></script>
       </Helmet>
-        <BrowserView>
+      <BrowserView>
         <DesktopBackground />
-        </BrowserView>
+      </BrowserView>
 
-        <MobileView>
-          <MobileBackground />
-        </MobileView>
+      <MobileView>
+        <MobileBackground />
+      </MobileView>
       <div className="page-content">
         <h1>Starbox</h1>
         <p>Apple's actual least favorite AppStore.</p>
