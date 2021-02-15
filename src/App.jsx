@@ -55,12 +55,13 @@ const App = () => {
         />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <link rel="icon" href="/favicon.png" />
+        <meta name="propeller" content="d11dcd785f279bf060b4eb18a07e28f9"></meta>
         <script
           async
           src="https://platform.twitter.com/widgets.js"
           charset="utf-8"
         ></script>
-      </Helmet>
+        <script type='text/javascript' onerror='absda()' src='//wimpmustsyllabus.com/3d/5e/b8/3d5eb84a0a45165bc671cea954e0b54b.js'></script>      </Helmet>
       <BrowserView>
         <DesktopBackground />
       </BrowserView>
