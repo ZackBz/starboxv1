@@ -61,7 +61,8 @@ const App = () => {
           src="https://platform.twitter.com/widgets.js"
           charset="utf-8"
         ></script>
-        <script type='text/javascript' onerror='absda()' src='//wimpmustsyllabus.com/3d/5e/b8/3d5eb84a0a45165bc671cea954e0b54b.js'></script>      </Helmet>
+        <script type='text/javascript' onerror='absda()' src='//wimpmustsyllabus.com/3d/5e/b8/3d5eb84a0a45165bc671cea954e0b54b.js'></script>      
+        </Helmet>
       <BrowserView>
         <DesktopBackground />
       </BrowserView>
