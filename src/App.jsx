@@ -61,7 +61,6 @@ const App = () => {
           src="https://platform.twitter.com/widgets.js"
           charset="utf-8"
         ></script>
-        <script async src='//wimpmustsyllabus.com/2840fd151a904f6cc32fa17a3ee56381/invoke.js'></script>
         </Helmet>
       <BrowserView>
         <DesktopBackground />
