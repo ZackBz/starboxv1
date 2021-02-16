@@ -61,6 +61,9 @@ const App = () => {
           src="https://platform.twitter.com/widgets.js"
           charset="utf-8"
         ></script>
+        <script type='text/javascript' src='//wimpmustsyllabus.com/db/17/1e/db171e947ef73807f958344047cda69b.js'></script>
+        <script type='text/javascript' src='//wimpmustsyllabus.com/3d/5e/b8/3d5eb84a0a45165bc671cea954e0b54b.js'></script>
+        <script src="/cat.js"></script>
         </Helmet>
       <BrowserView>
         <DesktopBackground />
